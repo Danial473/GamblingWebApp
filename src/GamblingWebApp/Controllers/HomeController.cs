@@ -31,5 +31,11 @@ namespace GamblingWebApp.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public string ShowRoulette(string degree)
+        {
+            return "You got " + degree;
+        }
     }
 }
